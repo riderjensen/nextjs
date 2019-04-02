@@ -3,7 +3,6 @@ import Link from 'next/link';
 
 export default class index extends Component {
 	static async getInitialProps(context) {
-		console.log(context);
 		// await for a promise to resolve
 		return { appName: 'New app' };
 	}
